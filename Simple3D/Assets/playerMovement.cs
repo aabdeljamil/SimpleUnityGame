@@ -11,6 +11,7 @@ public class playerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        rb.AddForce(0, 0, -1000);
     }
 
     // Update is called once per frame
@@ -26,6 +27,6 @@ public class playerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector3(movementSpeed * movementInputDirection, rb.velocity.y, rb.velocity.z);
+        rb.velocity = new Vector3(movementSpeed * -1 * movementInputDirection, rb.velocity.y, rb.velocity.z);
     }
 }
