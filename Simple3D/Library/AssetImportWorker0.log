@@ -2,7 +2,7 @@
 Entitlement-based licensing initiated
 [LicensingClient] Licenses Updated successfully in LicensingClient
 
-LICENSE SYSTEM [2020727 17:47:17] Next license update check is after 2020-07-28T21:41:44
+LICENSE SYSTEM [2020728 15:15:54] Next license update check is after 2020-07-28T21:41:44
 
 Built from '2019.4/staging' branch; Version is '2019.4.5f1 (81610f64359c) revision 8478991'; Using compiler version '191627012'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 8090 MB
@@ -16,19 +16,19 @@ C:\Program Files\Unity\Hub\Editor\2019.4.5f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/aabde/Simple2D
+C:/Users/aabde/SimpleUnityGame/Simple3D
 -logFile
 Library/AssetImportWorker0.log
 -srvPort
-63838
-Successfully changed project path to: C:/Users/aabde/Simple2D
-C:/Users/aabde/Simple2D
+53566
+Successfully changed project path to: C:/Users/aabde/SimpleUnityGame/Simple3D
+C:/Users/aabde/SimpleUnityGame/Simple3D
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.92 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 33.87 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2019.4.5f1 (81610f64359c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/aabde/Simple2D/Assets
+[Subsystems] Discovering subsystems at path C:/Users/aabde/SimpleUnityGame/Simple3D/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -40,50 +40,94 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Registered in 0.003751 seconds.
+Registered in 0.003759 seconds.
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 15.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 16.98 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.891 seconds
+- Completed reload, in  2.859 seconds
 Registering precompiled user dll's ...
-Registered in 0.073011 seconds.
+Registered in 0.061171 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\Simple2D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\SimpleUnityGame\Simple3D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 22.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 19.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.157 seconds
+- Completed reload, in  1.001 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.3 MB.
-System memory in use after: 55.2 MB.
+Unloading 1079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.4 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1466.
-Total: 1.801300 ms (FindLiveObjects: 0.380100 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.325700 ms  DeleteObjects: 0.055500 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1469.
+Total: 1.646800 ms (FindLiveObjects: 0.328600 ms CreateObjectMapping: 0.046100 ms MarkObjects: 1.217900 ms  DeleteObjects: 0.053500 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/New Physic Material.physicMaterial
+  artifactKey: Guid(5458e41bf65666047a123acf43b62801) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/New Physic Material.physicMaterial using Guid(5458e41bf65666047a123acf43b62801) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/3c85c23b6c32fd04e851748841d730c2.asset.1.index for Assets/New Physic Material.physicMaterial with Types
+Done importing asset: 'Assets/New Physic Material.physicMaterial' (target hash: 'ab417e48bac75f480cd433ce6cf5f12c') in 0.174851 seconds
+  Import took 0.178131 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Respawn.cs
+  artifactKey: Guid(e85591ecfb0fdf34198e6eb84f9d8eb1) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Respawn.cs using Guid(e85591ecfb0fdf34198e6eb84f9d8eb1) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/7a076f4490b6bc44c86f9476bce91ff9.asset.1.index for Assets/Respawn.cs with Types
+Done importing asset: 'Assets/Respawn.cs' (target hash: '97a021d63342045fb33b57c02011c670') in 0.054414 seconds
+  Import took 0.058273 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001139 seconds.
+  path: Assets/playerMovement.cs
+  artifactKey: Guid(ab2c7963ade9dc747a5cd9e8df9dffd1) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/playerMovement.cs using Guid(ab2c7963ade9dc747a5cd9e8df9dffd1) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/044613568f5201747a304eccb84e750f.asset.1.index for Assets/playerMovement.cs with Types
+Done importing asset: 'Assets/playerMovement.cs' (target hash: '537e6efa9c4c52767eecc9c1a4aa3edf') in 0.041641 seconds
+  Import took 0.047035 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000594 seconds.
+  path: Assets/CameraController.cs
+  artifactKey: Guid(8be6fb6d44356204a8b6241e407f8b1a) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/CameraController.cs using Guid(8be6fb6d44356204a8b6241e407f8b1a) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/a860b09d5caf0ae4e84202800275f399.asset.1.index for Assets/CameraController.cs with Types
+Done importing asset: 'Assets/CameraController.cs' (target hash: 'ca4ed932066f082f5c8ca0f56be3b283') in 0.051351 seconds
+  Import took 0.055122 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
 Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
 
-Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/c7410cf647cd90b43b07e43520dad9a7.asset.1.index for Assets/Scenes/SampleScene.unity with Types
-Done importing asset: 'Assets/Scenes/SampleScene.unity' (target hash: '0ada31e4fc80447520e05a1993c5e6aa') in 0.108793 seconds
-  Import took 0.112371 seconds.
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ab538dfdbd217ca4db5a440179ec6c5a.asset.1.index for Assets/Scenes/SampleScene.unity with Types
+Done importing asset: 'Assets/Scenes/SampleScene.unity' (target hash: 'a98c689f0608f3c1ee0a980170c06644') in 0.040938 seconds
+  Import took 0.049200 seconds.
 
 ========================================================================
 Received Prepare
@@ -92,56 +136,117 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Registered in 0.003609 seconds.
-Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\Simple2D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Registered in 0.004269 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\SimpleUnityGame\Simple3D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 18.13 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 23.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.083 seconds
+- Completed reload, in  1.512 seconds
 Registering precompiled user dll's ...
-Registered in 0.084700 seconds.
+Registered in 0.078643 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\Simple2D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\SimpleUnityGame\Simple3D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.172 seconds
+- Completed reload, in  1.647 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 34.5 MB.
+System memory in use after: 34.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1475.
+Total: 2.110400 ms (FindLiveObjects: 0.523600 ms CreateObjectMapping: 0.049900 ms MarkObjects: 1.474400 ms  DeleteObjects: 0.061700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2207.737099 seconds.
+  path: Assets/playerMovement.cs
+  artifactKey: Guid(ab2c7963ade9dc747a5cd9e8df9dffd1) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/playerMovement.cs using Guid(ab2c7963ade9dc747a5cd9e8df9dffd1) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/22e55d138da95e74187dde20a243b899.asset.1.index for Assets/playerMovement.cs with Types
+Done importing asset: 'Assets/playerMovement.cs' (target hash: '05ee8ed7c91c2dccc920b7e11f8d850e') in 0.101290 seconds
+  Import took 0.105114 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Registered in 0.003171 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\SimpleUnityGame\Simple3D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 22.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.299 seconds
+Registering precompiled user dll's ...
+Registered in 0.060496 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\SimpleUnityGame\Simple3D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.188 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 34.5 MB.
+System memory in use after: 34.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1481.
+Total: 1.823400 ms (FindLiveObjects: 0.452200 ms CreateObjectMapping: 0.103500 ms MarkObjects: 1.222600 ms  DeleteObjects: 0.043100 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Registered in 0.004451 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\SimpleUnityGame\Simple3D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.419 seconds
+Registering precompiled user dll's ...
+Registered in 0.103197 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\SimpleUnityGame\Simple3D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.388 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 34.4 MB.
-System memory in use after: 34.5 MB.
+System memory in use before: 34.5 MB.
+System memory in use after: 34.6 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1472.
-Total: 1.951500 ms (FindLiveObjects: 0.397200 ms CreateObjectMapping: 0.036600 ms MarkObjects: 1.443300 ms  DeleteObjects: 0.073100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 804.666438 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(23d7bf583ab70f042a44a5feb2fc697c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
-Start importing Assets/New Material.mat using Guid(23d7bf583ab70f042a44a5feb2fc697c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
-
-Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/80b97f94f97eb4545b8ffa58ab2c12e6.asset.1.index for Assets/New Material.mat with Types
-Done importing asset: 'Assets/New Material.mat' (target hash: 'd418be711f233f3fe3c5ce151bac1ab8') in 0.150161 seconds
-  Import took 0.157403 seconds.
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.021695 seconds.
-  path: Assets/New Material 1.mat
-  artifactKey: Guid(da22583543090a84bb62fe00eb25d238) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
-Start importing Assets/New Material 1.mat using Guid(da22583543090a84bb62fe00eb25d238) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
-
-Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/616f67c4e9d75c64795bb03acf769e8a.asset.1.index for Assets/New Material 1.mat with Types
-Done importing asset: 'Assets/New Material 1.mat' (target hash: '3b0e67f08c220722eaee8403631ab9c9') in 0.037095 seconds
-  Import took 0.040442 seconds.
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1487.
+Total: 2.637900 ms (FindLiveObjects: 0.557900 ms CreateObjectMapping: 0.089700 ms MarkObjects: 1.873400 ms  DeleteObjects: 0.116200 ms)
 
 ========================================================================
 Received Prepare
@@ -150,34 +255,70 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Registered in 0.008908 seconds.
-Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\Simple2D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Registered in 0.004378 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\SimpleUnityGame\Simple3D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 34.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.504 seconds
+Registering precompiled user dll's ...
+Registered in 0.069184 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\SimpleUnityGame\Simple3D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.371 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 34.5 MB.
+System memory in use after: 34.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1493.
+Total: 2.438800 ms (FindLiveObjects: 0.528700 ms CreateObjectMapping: 0.101300 ms MarkObjects: 1.755000 ms  DeleteObjects: 0.052900 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Registered in 0.005062 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\SimpleUnityGame\Simple3D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 25.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.231 seconds
+Registering precompiled user dll's ...
+Registered in 0.091644 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\SimpleUnityGame\Simple3D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.729 seconds
-Registering precompiled user dll's ...
-Registered in 0.064824 seconds.
 Platform modules already initialized, skipping
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\Simple2D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WebGL target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.254 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 34.4 MB.
-System memory in use after: 34.5 MB.
+System memory in use before: 34.5 MB.
+System memory in use after: 34.6 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1478.
-Total: 1.636900 ms (FindLiveObjects: 0.416200 ms CreateObjectMapping: 0.043300 ms MarkObjects: 1.120000 ms  DeleteObjects: 0.056600 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1499.
+Total: 2.108100 ms (FindLiveObjects: 0.441800 ms CreateObjectMapping: 0.081400 ms MarkObjects: 1.537800 ms  DeleteObjects: 0.046400 ms)
 
 ========================================================================
 Received Prepare
@@ -186,102 +327,55 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Registered in 0.003763 seconds.
-Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\Simple2D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Registered in 0.004180 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\SimpleUnityGame\Simple3D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 16.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 24.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.225 seconds
+- Completed reload, in  2.556 seconds
 Registering precompiled user dll's ...
-Registered in 0.100680 seconds.
+Registered in 0.200300 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\Simple2D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\SimpleUnityGame\Simple3D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WebGL target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.174 seconds
+- Completed reload, in  2.457 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 34.4 MB.
-System memory in use after: 34.5 MB.
+System memory in use before: 34.5 MB.
+System memory in use after: 34.6 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1484.
-Total: 1.792600 ms (FindLiveObjects: 0.300200 ms CreateObjectMapping: 0.028800 ms MarkObjects: 1.421400 ms  DeleteObjects: 0.041600 ms)
-
-========================================================================
-Received Prepare
-Reloading mono domain
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Registered in 0.005504 seconds.
-Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\Simple2D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WebGL target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 16.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.300 seconds
-Registering precompiled user dll's ...
-Registered in 0.054999 seconds.
-Platform modules already initialized, skipping
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\aabde\Simple2D\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WebGL target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.244 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 34.4 MB.
-System memory in use after: 34.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1490.
-Total: 1.999000 ms (FindLiveObjects: 0.461500 ms CreateObjectMapping: 0.054400 ms MarkObjects: 1.423200 ms  DeleteObjects: 0.058500 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1505.
+Total: 1.737400 ms (FindLiveObjects: 0.432700 ms CreateObjectMapping: 0.047900 ms MarkObjects: 1.209900 ms  DeleteObjects: 0.046200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 536.890020 seconds.
+  Time since last request: 1127.908271 seconds.
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
 Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
 
-Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/eb4086023edc9404d8aebbcf85852163.asset.1.index for Assets/Scenes/SampleScene.unity with Types
-Done importing asset: 'Assets/Scenes/SampleScene.unity' (target hash: '53f026bd1d576ea3534b3c87b551f61d') in 0.091291 seconds
-  Import took 0.094657 seconds.
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/97ffd6e00e211744db7b7971f7f48a44.asset.1.index for Assets/Scenes/SampleScene.unity with Types
+Done importing asset: 'Assets/Scenes/SampleScene.unity' (target hash: 'f244b620f4c5b6822e091d7e0a40f845') in 0.160725 seconds
+  Import took 0.164061 seconds.
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(23d7bf583ab70f042a44a5feb2fc697c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
-Start importing Assets/New Material.mat using Guid(23d7bf583ab70f042a44a5feb2fc697c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+  Time since last request: 25.447036 seconds.
+  path: Assets/Scenes/Level01.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Level01.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
 
-Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ffa598302371c3644aa8b1f2ddbdd49c.asset.1.index for Assets/New Material.mat with Types
-Done importing asset: 'Assets/New Material.mat' (target hash: '681a3cff43a7f87d3d6f6dde7dc121f2') in 0.021180 seconds
-  Import took 0.027421 seconds.
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/New Material 1.mat
-  artifactKey: Guid(da22583543090a84bb62fe00eb25d238) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
-Start importing Assets/New Material 1.mat using Guid(da22583543090a84bb62fe00eb25d238) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
-
-Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/1d27611f4eab0344c8802119586ea2cf.asset.1.index for Assets/New Material 1.mat with Types
-Done importing asset: 'Assets/New Material 1.mat' (target hash: 'c273cb8e8efa3b9bf4eefcc630678de1') in 0.033368 seconds
-  Import took 0.037179 seconds.
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/cc49d220c0e1fb544aa1ed60e3e63a96.asset.1.index for Assets/Scenes/Level01.unity with Types
+Done importing asset: 'Assets/Scenes/Level01.unity' (target hash: 'ef4da0b7580d3276f958985155209beb') in 0.131034 seconds
+  Import took 0.136549 seconds.
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
