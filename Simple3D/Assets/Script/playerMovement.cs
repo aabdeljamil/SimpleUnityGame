@@ -23,6 +23,10 @@ public class playerMovement : MonoBehaviour
     void Update()
     {
         OnMove();
+        if (Input.GetButtonDown("Jump"))
+        {
+            jumpPressed = jumpPressedTime;
+        }
     }
 
     void OnMove()
@@ -34,10 +38,6 @@ public class playerMovement : MonoBehaviour
     {
         rb.velocity = new Vector3(horizontalSpeed * -1 * movementInputDirection, rb.velocity.y, -movementSpeed);
         jumpPressed -= Time.deltaTime;
-        if (Input.GetButtonDown("Jump"))
-        {
-            jumpPressed = jumpPressedTime;
-        }
 
         if (jumpPressed > 0 && isGrounded)
         {
