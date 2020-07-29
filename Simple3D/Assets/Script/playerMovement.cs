@@ -8,7 +8,7 @@ public class playerMovement : MonoBehaviour
     private Rigidbody rb;
     public float horizontalSpeed;
     public float movementSpeed;
-    public float gravityScale = 1f;
+    public float gravityScale = -3;
     public float jumpSpeed = 10;
     public bool isGrounded;
     public float jumpPressed;
