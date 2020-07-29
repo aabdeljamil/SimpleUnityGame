@@ -1235,6 +1235,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizontalSpeed: 10
   movementSpeed: 35
+  gravityScale: 0.5
+  jumpSpeed: 5
+  isGrounded: 0
+  jumpPressed: 0
+  jumpPressedTime: 0.2
 --- !u!1 &658473147
 GameObject:
   m_ObjectHideFlags: 0
