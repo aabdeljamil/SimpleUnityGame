@@ -9,10 +9,13 @@ public class playerMovement : MonoBehaviour
     public float horizontalSpeed;
     public float movementSpeed;
     public float gravityScale = 1f;
-    public float jumpSpeed = 10;
+    public float jumpSpeed = 10f;
+    public float jumpShortSpeed = 5f;
     public bool isGrounded;
     public float jumpPressed;
     public float jumpPressedTime = .2f;
+    public bool jumpcancel = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +29,10 @@ public class playerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jumpPressed = jumpPressedTime;
+        }
+        if (Input.GetButtonUp("Jump") && !isGrounded)
+        {
+            jumpcancel = true;
         }
     }
 
@@ -46,11 +53,20 @@ public class playerMovement : MonoBehaviour
             isGrounded = false;
         }
 
+        if (jumpcancel)
+        {
+            if (rb.velocity.y > jumpShortSpeed)
+            {
+                rb.velocity = new Vector3(rb.velocity.x, jumpShortSpeed, rb.velocity.z);
+            }
+        }
+
        rb.velocity -= new Vector3(0,Physics.gravity.y * gravityScale * Time.deltaTime, 0);
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         isGrounded = true;
+        jumpcancel = false;
     }
 }
