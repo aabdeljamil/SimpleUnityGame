@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerMovement : MonoBehaviour
 {
@@ -26,14 +27,18 @@ public class playerMovement : MonoBehaviour
     void Update()
     {
         OnMove();
-        if (Input.GetButtonDown("Jump"))
+        if (SceneManager.GetActiveScene().buildIndex != 0)
         {
-            jumpPressed = jumpPressedTime;
+            if (Input.GetButtonDown("Jump"))
+            {
+                jumpPressed = jumpPressedTime;
+            }
+            if (Input.GetButtonUp("Jump") && !isGrounded)
+            {
+                jumpcancel = true;
+            }
         }
-        if (Input.GetButtonUp("Jump") && !isGrounded)
-        {
-            jumpcancel = true;
-        }
+
     }
 
     void OnMove()
@@ -46,18 +51,21 @@ public class playerMovement : MonoBehaviour
         rb.velocity = new Vector3(horizontalSpeed * -1 * movementInputDirection, rb.velocity.y, -movementSpeed);
         jumpPressed -= Time.deltaTime;
 
-        if (jumpPressed > 0 && isGrounded)
+        if (SceneManager.GetActiveScene().buildIndex != 0)
         {
-            jumpPressed = 0;
-            rb.AddForce(new Vector3(0, jumpSpeed, 0), ForceMode.Impulse);
-            isGrounded = false;
-        }
-
-        if (jumpcancel)
-        {
-            if (rb.velocity.y > jumpShortSpeed)
+            if (jumpPressed > 0 && isGrounded)
             {
-                rb.velocity = new Vector3(rb.velocity.x, jumpShortSpeed, rb.velocity.z);
+                jumpPressed = 0;
+                rb.AddForce(new Vector3(0, jumpSpeed, 0), ForceMode.Impulse);
+                isGrounded = false;
+            }
+
+            if (jumpcancel)
+            {
+                if (rb.velocity.y > jumpShortSpeed)
+                {
+                    rb.velocity = new Vector3(rb.velocity.x, jumpShortSpeed, rb.velocity.z);
+                }
             }
         }
 
