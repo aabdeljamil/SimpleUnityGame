@@ -10,7 +10,8 @@ public class Respawn : MonoBehaviour
     public DeathText text;
     private void OnTriggerEnter(Collider other)
     {
-        StartCoroutine(DieScreen());
+        if (other.gameObject.CompareTag("Player"))
+            StartCoroutine(DieScreen());
     }
 
     IEnumerator DieScreen()
