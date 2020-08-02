@@ -662,7 +662,7 @@ Transform:
   m_LocalScale: {x: 346.76706, y: 1, z: 1099.1742}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &439741035
 Rigidbody:
@@ -978,6 +978,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: Use Spacebar to jump.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6155727141962929171, guid: fa3f7f8920e5ecf43a07d3c65f2a2e53,
+        type: 3}
+      propertyPath: m_Color.rgba
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6155727141962929260, guid: fa3f7f8920e5ecf43a07d3c65f2a2e53,
         type: 3}
@@ -1395,7 +1400,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
@@ -2147,7 +2152,7 @@ PrefabInstance:
     - target: {fileID: 6155727141962929169, guid: fa3f7f8920e5ecf43a07d3c65f2a2e53,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4
+      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 6155727141962929169, guid: fa3f7f8920e5ecf43a07d3c65f2a2e53,
         type: 3}
@@ -2198,6 +2203,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: Hold Spacebar to jump higher!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6155727141962929171, guid: fa3f7f8920e5ecf43a07d3c65f2a2e53,
+        type: 3}
+      propertyPath: m_Color.rgba
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6155727141962929260, guid: fa3f7f8920e5ecf43a07d3c65f2a2e53,
         type: 3}
@@ -2324,8 +2334,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780580112}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: 10.6, z: 0}
-  m_LocalScale: {x: 2, y: 1, z: 100}
+  m_LocalPosition: {x: 0, y: 10.6, z: -38.43}
+  m_LocalScale: {x: 2.000001, y: 1, z: 107.68652}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
@@ -2708,6 +2718,11 @@ PrefabInstance:
       value: 'Oof! Try again!
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7630200754747257824, guid: 3460796cb91431649acfd4eb930ae71a,
+        type: 3}
+      propertyPath: m_Color.rgba
+      value: 4294835709
       objectReference: {fileID: 0}
     - target: {fileID: 7630200754747257826, guid: 3460796cb91431649acfd4eb930ae71a,
         type: 3}

@@ -74,7 +74,10 @@ public class playerMovement : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        isGrounded = true;
-        jumpcancel = false;
+        if (rb.velocity.z != 0)
+        {
+            isGrounded = true;
+            jumpcancel = false;
+        }
     }
 }
