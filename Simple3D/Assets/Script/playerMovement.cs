@@ -74,7 +74,7 @@ public class playerMovement : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (rb.velocity.z != 0)
+        if (rb.velocity.z != 0 && collision.gameObject.CompareTag("Floor"))
         {
             isGrounded = true;
             jumpcancel = false;
