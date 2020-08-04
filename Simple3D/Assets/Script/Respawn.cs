@@ -21,6 +21,7 @@ public class Respawn : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
         text.TurnOff();
         player.transform.position = respawnPoint.transform.position;
+        playerMovement.rb.velocity = new Vector3(0, 0, 0);
         player.gameObject.SetActive(true);
     }
 }

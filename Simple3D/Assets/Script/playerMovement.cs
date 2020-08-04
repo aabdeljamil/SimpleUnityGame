@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class playerMovement : MonoBehaviour
 {
     private float movementInputDirection;
-    private Rigidbody rb;
+    public static Rigidbody rb;
     public float horizontalSpeed;
     public float movementSpeed;
     public float gravityScale = -3f;
