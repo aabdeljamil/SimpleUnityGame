@@ -29,16 +29,24 @@ public class playerMovement : MonoBehaviour
         OnMove();
         if (SceneManager.GetActiveScene().buildIndex != 1)
         {
-            if (Input.GetButtonDown("Jump"))
+            if (Input.GetButtonDown("Jump") || Input.GetButtonDown("Vertical"))
             {
                 jumpPressed = jumpPressedTime;
             }
-            if (Input.GetButtonUp("Jump") && !isGrounded)
+            if ((Input.GetButtonUp("Jump") || Input.GetButtonDown("Vertical")) && !isGrounded)
             {
                 jumpcancel = true;
             }
         }
 
+        if(Input.GetButtonDown("Cancel")){
+            if(Time.timeScale == 1){
+                Time.timeScale = 0;
+            }
+            else{
+                Time.timeScale = 1;
+            }
+        }
     }
 
     void OnMove()
