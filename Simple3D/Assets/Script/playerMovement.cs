@@ -38,15 +38,6 @@ public class playerMovement : MonoBehaviour
                 jumpPressed = jumpcancel;
             }
         }
-
-        if(Input.GetButtonDown("Cancel")){
-            if(Time.timeScale == 1){
-                Time.timeScale = 0;
-            }
-            else{
-                Time.timeScale = 1;
-            }
-        }
     }
 
     void OnMove()

@@ -4,29 +4,32 @@ using UnityEngine;
 
 public class pauseScreen : MonoBehaviour
 {
-    public GameObject ball;
-    private Vector3 offset;
-
-    // Start is called before the first frame update
-    void Start()
+    public bool OpenPauseMenu = false;
+    public Canvas canvas;
+    public GameObject game;
+    public void Pause()
     {
-        offset = transform.position;
-    }
-
-    // Update is called once per frame
-
-    // Start is called before the first frame update
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Time.timeScale == 0)
+        if (Input.GetButtonDown("Cancel"))
         {
-            this.gameObject.SetActive(true);
+            if (!OpenPauseMenu)
+            {
+                Time.timeScale = 0;
+                canvas.gameObject.SetActive(true);
+                game.gameObject.SetActive(false);
+            }
+            else
+            {
+                Time.timeScale = 1;
+                canvas.gameObject.SetActive(false);
+                game.gameObject.SetActive(true);
+                Cursor.visible = false;
+            }
+            OpenPauseMenu = !OpenPauseMenu;
         }
     }
-    void LateUpdate()
+
+    private void Update()
     {
-        transform.position = ball.transform.position;
+        Pause();
     }
 }
