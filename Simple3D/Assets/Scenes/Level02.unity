@@ -614,7 +614,7 @@ PrefabInstance:
     - target: {fileID: 1412480335382892734, guid: a0ea1e1382523a142b9bd99a05bafd8c,
         type: 3}
       propertyPath: m_Text
-      value: Hold Spacebar to jump higher!
+      value: Hold up key to jump higher!
       objectReference: {fileID: 0}
     - target: {fileID: 1412480336030805106, guid: a0ea1e1382523a142b9bd99a05bafd8c,
         type: 3}
@@ -863,7 +863,7 @@ MonoBehaviour:
   isGrounded: 0
   jumpPressed: 0
   jumpPressedTime: 0.2
-  jumpcancel: 0.4
+  jumpCancel: 0.4
 --- !u!224 &690683353 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1412480336030805110, guid: a0ea1e1382523a142b9bd99a05bafd8c,
@@ -2615,6 +2615,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 1668445591027721865, guid: bee123c5ffdd07442a7b24e398b1a319,
+        type: 3}
+      propertyPath: game
+      value: 
+      objectReference: {fileID: 809826077}
+    - target: {fileID: 1668445591027721865, guid: bee123c5ffdd07442a7b24e398b1a319,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 231930571}
     - target: {fileID: 1668445591027721866, guid: bee123c5ffdd07442a7b24e398b1a319,
         type: 3}
       propertyPath: m_Camera
@@ -3040,6 +3050,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 809826078}
     m_Modifications:
+    - target: {fileID: 1412480335382892734, guid: a0ea1e1382523a142b9bd99a05bafd8c,
+        type: 3}
+      propertyPath: m_Text
+      value: Press up key to jump.
+      objectReference: {fileID: 0}
     - target: {fileID: 1412480336030805106, guid: a0ea1e1382523a142b9bd99a05bafd8c,
         type: 3}
       propertyPath: m_Name
@@ -3174,7 +3189,7 @@ PrefabInstance:
     - target: {fileID: 7630200754747257824, guid: 3460796cb91431649acfd4eb930ae71a,
         type: 3}
       propertyPath: m_Color.rgba
-      value: 4294835709
+      value: 4278190335
       objectReference: {fileID: 0}
     - target: {fileID: 7630200754747257826, guid: 3460796cb91431649acfd4eb930ae71a,
         type: 3}

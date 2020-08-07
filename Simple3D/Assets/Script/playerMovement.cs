@@ -12,7 +12,7 @@ public class playerMovement : MonoBehaviour
     public float gravityScale = -3f;
     public float jumpSpeed = 20f;
     public float jumpShortSpeed = 10f;
-    public bool isGrounded;
+    public bool isGrounded = true;
     public float jumpPressed;
     public float jumpPressedTime = .2f;
     public float jumpCancel = .4f;
@@ -26,6 +26,10 @@ public class playerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (rb.velocity.y < -1)
+        {
+            isGrounded = false;
+        }
         OnMove();
         if (SceneManager.GetActiveScene().buildIndex != 1)//no jumpng on level 1
         {

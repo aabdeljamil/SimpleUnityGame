@@ -5,26 +5,33 @@ using UnityEngine;
 public class pauseScreen : MonoBehaviour
 {
     public static bool OpenPauseMenu = false;
+    public static bool isDead = false;
     public Canvas canvas;
     public GameObject game;
+
     public void Pause()
     {
-        if (Input.GetButtonDown("Cancel"))
+        if (isDead == false)
         {
-            if (!OpenPauseMenu)
+            if (Input.GetButtonDown("Cancel"))
             {
-                Time.timeScale = 0;
-                canvas.gameObject.SetActive(true);
-                game.gameObject.SetActive(false);
+                if (!OpenPauseMenu)
+                {
+                    Time.timeScale = 0;
+                    canvas.gameObject.SetActive(true);
+                    game.gameObject.SetActive(false);
+                    Cursor.visible = true;
+
+                }
+                else
+                {
+                    Time.timeScale = 1;
+                    canvas.gameObject.SetActive(false);
+                    game.gameObject.SetActive(true);
+                    Cursor.visible = false;
+                }
+                OpenPauseMenu = !OpenPauseMenu;
             }
-            else
-            {
-                Time.timeScale = 1;
-                canvas.gameObject.SetActive(false);
-                game.gameObject.SetActive(true);
-                Cursor.visible = false;
-            }
-            OpenPauseMenu = !OpenPauseMenu;
         }
     }
 

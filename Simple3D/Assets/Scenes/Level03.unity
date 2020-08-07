@@ -179,7 +179,7 @@ MonoBehaviour:
   isGrounded: 0
   jumpPressed: 0
   jumpPressedTime: 0.2
-  jumpcancel: 0
+  jumpCancel: 0.4
 --- !u!54 &131017126
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3347,6 +3347,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 1668445591027721865, guid: bee123c5ffdd07442a7b24e398b1a319,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1772860661}
+    - target: {fileID: 1668445591027721865, guid: bee123c5ffdd07442a7b24e398b1a319,
+        type: 3}
+      propertyPath: game
+      value: 
+      objectReference: {fileID: 1170209439}
     - target: {fileID: 1668445591027721866, guid: bee123c5ffdd07442a7b24e398b1a319,
         type: 3}
       propertyPath: m_Camera
