@@ -2,16 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class PauseMenu : MonoBehaviour
 {
+    public Canvas canvas;
+    public GameObject game;
 
     public void BackToMainMenu()
     {
         SceneManager.LoadScene(0);
     }
 
-    public void QuitGame()
+    public void ResumeGame()
     {
-        Application.Quit();
+        pauseScreen.OpenPauseMenu = !pauseScreen.OpenPauseMenu;
+        Time.timeScale = 1;
+        canvas.gameObject.SetActive(false);
+        game.gameObject.SetActive(true);
+        Cursor.visible = false;
     }
 }

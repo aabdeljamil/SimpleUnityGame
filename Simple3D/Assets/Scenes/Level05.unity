@@ -850,6 +850,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4af977f9709cb20419833cc4c8d48e2a, type: 3}
+--- !u!114 &188857592 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1668445591027721865, guid: bee123c5ffdd07442a7b24e398b1a319,
+    type: 3}
+  m_PrefabInstance: {fileID: 1537565699}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c95adf16e2c1a4b8203911e116d3d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &218345475
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3439,7 +3451,7 @@ MonoBehaviour:
   isGrounded: 0
   jumpPressed: 0
   jumpPressedTime: 0.2
-  jumpcancel: 0
+  jumpCancel: 0.4
 --- !u!54 &1188985834
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4115,11 +4127,66 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1668445589774446180, guid: bee123c5ffdd07442a7b24e398b1a319,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668445589774446181, guid: bee123c5ffdd07442a7b24e398b1a319,
+        type: 3}
+      propertyPath: m_Name
+      value: ResumeButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668445589774446183, guid: bee123c5ffdd07442a7b24e398b1a319,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 188857592}
+    - target: {fileID: 1668445589774446183, guid: bee123c5ffdd07442a7b24e398b1a319,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResumeGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668445589953819906, guid: bee123c5ffdd07442a7b24e398b1a319,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668445590699143276, guid: bee123c5ffdd07442a7b24e398b1a319,
+        type: 3}
+      propertyPath: m_Text
+      value: Resume Game
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668445590699143276, guid: bee123c5ffdd07442a7b24e398b1a319,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668445590699143276, guid: bee123c5ffdd07442a7b24e398b1a319,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1668445591027721862, guid: bee123c5ffdd07442a7b24e398b1a319,
         type: 3}
       propertyPath: m_Name
       value: PauseMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 1668445591027721862, guid: bee123c5ffdd07442a7b24e398b1a319,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668445591027721865, guid: bee123c5ffdd07442a7b24e398b1a319,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1537565700}
+    - target: {fileID: 1668445591027721865, guid: bee123c5ffdd07442a7b24e398b1a319,
+        type: 3}
+      propertyPath: game
+      value: 
+      objectReference: {fileID: 2053571172}
     - target: {fileID: 1668445591027721866, guid: bee123c5ffdd07442a7b24e398b1a319,
         type: 3}
       propertyPath: m_Camera
@@ -4229,6 +4296,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668445591136669648, guid: bee123c5ffdd07442a7b24e398b1a319,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -168
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bee123c5ffdd07442a7b24e398b1a319, type: 3}

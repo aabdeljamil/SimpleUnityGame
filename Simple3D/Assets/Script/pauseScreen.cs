@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class pauseScreen : MonoBehaviour
 {
-    public bool OpenPauseMenu = false;
+    public static bool OpenPauseMenu = false;
     public Canvas canvas;
     public GameObject game;
     public void Pause()

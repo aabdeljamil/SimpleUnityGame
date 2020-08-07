@@ -679,7 +679,7 @@ MonoBehaviour:
   isGrounded: 0
   jumpPressed: 0
   jumpPressedTime: 0.2
-  jumpcancel: 0
+  jumpCancel: 0.4
 --- !u!54 &639371618
 Rigidbody:
   m_ObjectHideFlags: 0

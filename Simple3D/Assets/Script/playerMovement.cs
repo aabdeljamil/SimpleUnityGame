@@ -15,7 +15,7 @@ public class playerMovement : MonoBehaviour
     public bool isGrounded;
     public float jumpPressed;
     public float jumpPressedTime = .2f;
-    public float jumpcancel = .4f;
+    public float jumpCancel = .4f;
 
     // Start is called before the first frame update
     void Start()
@@ -27,15 +27,15 @@ public class playerMovement : MonoBehaviour
     void Update()
     {
         OnMove();
-        if (SceneManager.GetActiveScene().buildIndex != 1)
+        if (SceneManager.GetActiveScene().buildIndex != 1)//no jumpng on level 1
         {
-            if (Input.GetButtonDown("Jump") || Input.GetButtonDown("Vertical"))
+            if (Input.GetButtonDown("Vertical"))//up key is pressed
             {
                 jumpPressed = jumpPressedTime;
             }
-            if ((Input.GetButtonUp("Jump") || Input.GetButtonDown("Vertical")) && !isGrounded)
+            if (Input.GetButtonUp("Vertical"))//up key is released
             {
-                jumpPressed = jumpcancel;
+                jumpPressed = jumpCancel;
             }
         }
     }
