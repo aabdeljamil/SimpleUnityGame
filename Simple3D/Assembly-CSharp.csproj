@@ -63,10 +63,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Boost.cs" />
+    <Compile Include="Assets\DeathText.cs" />
     <Compile Include="Assets\Script\CameraController.cs" />
     <Compile Include="Assets\Script\LevelLoader.cs" />
     <Compile Include="Assets\Script\LoadNextLevel.cs" />
+    <Compile Include="Assets\Script\MainMenu.cs" />
+    <Compile Include="Assets\Script\PauseMenu.cs" />
     <Compile Include="Assets\Script\Respawn.cs" />
+    <Compile Include="Assets\Script\pauseScreen.cs" />
     <Compile Include="Assets\Script\playerMovement.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Unity/2019.4.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
