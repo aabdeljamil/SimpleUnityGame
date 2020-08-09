@@ -1,1 +1,8 @@
 testing 123
+
+Your local changes to the following files would be overwritten by merge solution:
+
+$git fetch origin  # fetch remote commits
+$git checkout -f origin/master  # replace FOI with tracked upstream versions
+$git checkout master# FOI are not in mybranch, so they disapppear
+$git merge origin/master  # Now the merge works. fetch + merge completes the pull.
