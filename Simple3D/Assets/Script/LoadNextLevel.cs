@@ -12,6 +12,7 @@ public class LoadNextLevel : MonoBehaviour
     {
         other.gameObject.SetActive(false);
         LoadnxtLevel();
+        Cursor.visible = false;
     }
 
     public void LoadnxtLevel()
