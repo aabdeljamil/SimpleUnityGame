@@ -26,7 +26,7 @@ public class playerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (rb.velocity.y < -1)
+        if (rb.velocity.y < -1 || rb.velocity.y > 1)
         {
             isGrounded = false;
         }
