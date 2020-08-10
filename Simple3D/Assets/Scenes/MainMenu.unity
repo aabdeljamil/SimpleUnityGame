@@ -698,7 +698,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Beat the level to select it.
+  m_Text: Advance to the level to unlock it
 --- !u!222 &307641615
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4821,7 +4821,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Death Counter: 0'
+  m_Text: 'Deaths: 0'
 --- !u!114 &2046719753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4861,7 +4861,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -418.4, y: 223.6}
+  m_AnchoredPosition: {x: -495, y: 285}
   m_SizeDelta: {x: 303.28864, y: 72.73312}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2057784818

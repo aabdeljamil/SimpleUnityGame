@@ -33,7 +33,7 @@ public class playerMovement : MonoBehaviour
         OnMove();
         if (SceneManager.GetActiveScene().buildIndex != 1)//no jumpng on level 1
         {
-            if (Input.GetButtonDown("Vertical"))//up key is pressed
+            if (Input.GetButton("Vertical"))//up key is pressed
             {
                 jumpPressed = jumpPressedTime;
             }

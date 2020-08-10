@@ -20,29 +20,32 @@ public class LoadNextLevel : MonoBehaviour
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
         switch (SceneManager.GetActiveScene().buildIndex + 1)
         {
-            case 3:
+            case 2:
                 LevelSelect.pass2 = true;
                 break;
-            case 4:
+            case 3:
                 LevelSelect.pass3 = true;
                 break;
-            case 5:
+            case 4:
                 LevelSelect.pass4 = true;
                 break;
-            case 6:
+            case 5:
                 LevelSelect.pass5 = true;
                 break;
-            case 7:
+            case 6:
                 LevelSelect.pass6 = true;
                 break;
-            case 8:
+            case 7:
                 LevelSelect.pass7 = true;
                 break;
-            case 9:
+            case 8:
                 LevelSelect.pass8 = true;
                 break;
-            case 10:
+            case 9:
                 LevelSelect.pass9 = true;
+                break;
+            case 10:
+                LevelSelect.pass10 = true;
                 break;
             default:
                 break;

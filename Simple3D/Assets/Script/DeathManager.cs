@@ -25,7 +25,7 @@ public class DeathManager : MonoBehaviour
     public void ChangeDeaths(int death)
     {
         deaths += death;
-        text.text = "Death Counter: " + deaths.ToString();
+        text.text = "Deaths: " + deaths.ToString();
     }
 
 }
