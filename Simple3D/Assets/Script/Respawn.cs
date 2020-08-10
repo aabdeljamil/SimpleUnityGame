@@ -25,6 +25,6 @@ public class Respawn : MonoBehaviour
         playerMovement.rb.velocity = new Vector3(0, 0, 0);
         player.gameObject.SetActive(true);
         pauseScreen.isDead = false;
-
+        DeathManager.instance.ChangeDeaths(1);
     }
 }
