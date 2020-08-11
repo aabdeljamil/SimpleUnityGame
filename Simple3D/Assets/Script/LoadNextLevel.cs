@@ -52,6 +52,7 @@ public class LoadNextLevel : MonoBehaviour
             default:
                 break;
         }
+         GameObject.FindGameObjectWithTag("Music").GetComponent<MusicClass>().PlayMusic();
     }
 
     IEnumerator LoadLevel(int levelIndex)

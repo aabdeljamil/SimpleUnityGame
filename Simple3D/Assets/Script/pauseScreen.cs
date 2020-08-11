@@ -21,7 +21,7 @@ public class pauseScreen : MonoBehaviour
                     canvas.gameObject.SetActive(true);
                     game.gameObject.SetActive(false);
                     Cursor.visible = true;
-
+                    GameObject.FindGameObjectWithTag("Music").GetComponent<MusicClass>().PauseMusic();
                 }
                 else
                 {
@@ -29,6 +29,7 @@ public class pauseScreen : MonoBehaviour
                     canvas.gameObject.SetActive(false);
                     game.gameObject.SetActive(true);
                     Cursor.visible = false;
+                    GameObject.FindGameObjectWithTag("Music").GetComponent<MusicClass>().ResumeMusic();
                 }
                 OpenPauseMenu = !OpenPauseMenu;
             }

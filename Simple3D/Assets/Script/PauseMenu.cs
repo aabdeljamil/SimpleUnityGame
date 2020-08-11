@@ -12,6 +12,7 @@ public class PauseMenu : MonoBehaviour
     {
         SceneManager.LoadScene(0);
         DeathManager.instance.levelText.gameObject.SetActive(false);
+        GameObject.FindGameObjectWithTag("Music").GetComponent<MusicClass>().PlayMusic();
     }
 
     public void ResumeGame()
@@ -21,5 +22,6 @@ public class PauseMenu : MonoBehaviour
         canvas.gameObject.SetActive(false);
         game.gameObject.SetActive(true);
         Cursor.visible = false;
+        GameObject.FindGameObjectWithTag("Music").GetComponent<MusicClass>().ResumeMusic();
     }
 }
