@@ -3,19 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
 public class LoadNextLevel : MonoBehaviour
 {
     public float transitionTime = 1f;
 
     private void OnTriggerEnter(Collider other)
     {
-        other.gameObject.SetActive(false);
-        LoadnxtLevel();
-        Cursor.visible = false;
+        if (other.gameObject.CompareTag("Player"))
+        {
+            other.gameObject.SetActive(false);
+            LoadnextLevel();
+            Cursor.visible = false;
+        }
     }
 
-    public void LoadnxtLevel()
+    public void LoadnextLevel()
     {
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
         switch (SceneManager.GetActiveScene().buildIndex + 1)
@@ -57,5 +59,7 @@ public class LoadNextLevel : MonoBehaviour
         yield return new WaitForSeconds(transitionTime);
 
         SceneManager.LoadScene(levelIndex);
+        DeathManager.instance.LevelChange(SceneManager.GetActiveScene().buildIndex + 1);
+
     }
 }

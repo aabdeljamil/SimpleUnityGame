@@ -11,6 +11,7 @@ public class PauseMenu : MonoBehaviour
     public void BackToMainMenu()
     {
         SceneManager.LoadScene(0);
+        DeathManager.instance.levelText.gameObject.SetActive(false);
     }
 
     public void ResumeGame()

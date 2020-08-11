@@ -11,6 +11,9 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         Time.timeScale = 1;
         Cursor.visible = false;
+        DeathManager.instance.levelText.gameObject.SetActive(true);
+        DeathManager.instance.LevelChange(1);
+
     }
 
     public void QuitGame()
@@ -22,5 +25,7 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(level);
         Time.timeScale = 1;
         Cursor.visible = false;
+        DeathManager.instance.levelText.gameObject.SetActive(true);
+        DeathManager.instance.LevelChange(level);
     }
 }
