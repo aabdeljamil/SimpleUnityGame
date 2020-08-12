@@ -3879,6 +3879,11 @@ PrefabInstance:
       propertyPath: isGrounded
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5785346162328001438, guid: 72e4e72ed60394c43bb99492cb3b92f8,
+        type: 3}
+      propertyPath: jumpPressedTime
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72e4e72ed60394c43bb99492cb3b92f8, type: 3}
 --- !u!1001 &7524591906003958312

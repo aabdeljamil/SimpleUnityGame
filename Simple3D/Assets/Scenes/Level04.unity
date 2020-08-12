@@ -678,7 +678,7 @@ MonoBehaviour:
   jumpShortSpeed: 10
   isGrounded: 0
   jumpPressed: 0
-  jumpPressedTime: 0.2
+  jumpPressedTime: 0.1
   jumpCancel: 0.4
 --- !u!54 &639371618
 Rigidbody:
