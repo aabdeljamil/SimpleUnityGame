@@ -26,6 +26,7 @@ public class LevelSelect : MonoBehaviour
 
     public void ActivateLevel()
     {
+        GameObject.FindGameObjectWithTag("Music").GetComponent<MusicClass>().StopMusic();
         if (pass2)
             level2.interactable = true;
         if (pass3)
