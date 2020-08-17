@@ -9,6 +9,7 @@ public class DeathManager : MonoBehaviour
     public Text text;
     int deaths;
     public Text levelText;
+    public Text endText;
 
     private void Awake()
     {
@@ -32,6 +33,11 @@ public class DeathManager : MonoBehaviour
     public void LevelChange(int level)
     {
         levelText.text = "Level " + level.ToString();
+    }
+
+    public void DeathEnd()
+    {
+        endText.text = "You have died " + deaths.ToString() + " times.";
     }
 
 }

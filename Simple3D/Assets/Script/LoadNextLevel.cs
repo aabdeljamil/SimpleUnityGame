@@ -13,7 +13,6 @@ public class LoadNextLevel : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             LoadnextLevel();
-            Cursor.visible = false;
         }
     }
 
@@ -53,6 +52,12 @@ public class LoadNextLevel : MonoBehaviour
                 break;
         }
          GameObject.FindGameObjectWithTag("Music").GetComponent<MusicClass>().PlayMusic();
+        Cursor.visible = false;
+        if ((SceneManager.GetActiveScene().buildIndex + 1) == 10)
+        {
+            Cursor.visible = true;
+            DeathManager.instance.DeathEnd();
+        }    
     }
 
     IEnumerator LoadLevel(int levelIndex)
