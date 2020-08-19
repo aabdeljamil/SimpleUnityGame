@@ -45,9 +45,6 @@ public class LoadNextLevel : MonoBehaviour
             case 9:
                 LevelSelect.pass9 = true;
                 break;
-            case 10:
-                LevelSelect.pass10 = true;
-                break;
             default:
                 break;
         }

@@ -12,7 +12,6 @@ public class LevelSelect : MonoBehaviour
     public Button level7;
     public Button level8;
     public Button level9;
-    public Button level10;
 
     public static bool pass2;
     public static bool pass3;
@@ -22,7 +21,6 @@ public class LevelSelect : MonoBehaviour
     public static bool pass7;
     public static bool pass8;
     public static bool pass9;
-    public static bool pass10;
 
     public void ActivateLevel()
     {
@@ -43,7 +41,5 @@ public class LevelSelect : MonoBehaviour
             level8.interactable = true;
         if (pass9)
             level9.interactable = true;
-        if (pass10)
-            level10.interactable = true;
     }
 }
