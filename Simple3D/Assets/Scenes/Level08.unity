@@ -2419,7 +2419,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2038254818}
+      objectReference: {fileID: 0}
     - target: {fileID: 1668445589528869944, guid: bee123c5ffdd07442a7b24e398b1a319,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -3088,7 +3088,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2038254820}
   - component: {fileID: 2038254819}
-  - component: {fileID: 2038254818}
   m_Layer: 0
   m_Name: Music
   m_TagString: Music
@@ -3096,18 +3095,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2038254818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2038254817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c9a66b3e59eb3b4489facb291f8a8e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2038254819
 MonoBehaviour:
   m_ObjectHideFlags: 0

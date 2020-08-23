@@ -1733,7 +1733,6 @@ GameObject:
   m_Component:
   - component: {fileID: 198527905}
   - component: {fileID: 198527906}
-  - component: {fileID: 198527907}
   m_Layer: 0
   m_Name: Music
   m_TagString: Music
@@ -1753,7 +1752,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &198527906
 MonoBehaviour:
@@ -1765,18 +1764,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 94de76420318c1e41996a2baa2dd0195, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &198527907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 198527904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c9a66b3e59eb3b4489facb291f8a8e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &199173296
@@ -11779,7 +11766,7 @@ Transform:
   - {fileID: 1171972379}
   - {fileID: 1445559539}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1469986619
 PrefabInstance:
